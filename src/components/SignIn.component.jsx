@@ -19,11 +19,11 @@ const SignIn = () => {
     let user = JSON.parse(localStorage.getItem("user"));
     
     // Condition for redirecting
-    if (user.email === email && user.pass === pass) {
+    if (user?.email === email && user?.pass === pass) {
       localStorage.setItem("isLoggedIn",true);
       window.open("/","_self");
     } else {
-      alert("User name and password incorrect");
+      alert("User name or password incorrect");
     }
   };
 
