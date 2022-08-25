@@ -1,0 +1,73 @@
+.App {
+  background-color: rgb(208, 230, 249);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainDiv_in,
+.mainDiv_up {
+  border-radius: 0.5rem;
+  width: 30rem;
+  height: 25rem;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 0px 4px 4px rgb(120, 188, 247);
+}
+
+.headerDiv {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.headerText {
+  color: rgb(12, 129, 231);
+}
+
+.contentDiv {
+  text-align: center;
+}
+
+input,
+.logOutBtn {
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  background-color: rgb(228, 240, 250);
+  padding: 1rem;
+  font-size: medium;
+  width: 22rem;
+}
+
+input[type=submit],
+.logOutBtn {
+  background-color: rgb(177, 217, 252);
+}
+
+input[type=submit]:hover,
+.logOutBtn:hover {
+  background-color: rgb(39, 143, 234);
+  cursor: pointer;
+  color: white;
+}
+
+input:hover {
+  background-color: rgb(82, 167, 241);
+  color: white;
+}
+
+.anchorTag {
+  color: rgb(39, 143, 234);
+}
+
+
+.mainDiv_up {
+  height: 30rem;
+}
+
+.logOutBtn {
+  margin-top: 30rem;
+  margin-left: 25rem;
+}
